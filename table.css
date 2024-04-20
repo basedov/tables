@@ -1,0 +1,54 @@
+body{
+    background-color: darksalmon;
+}
+p{
+    font-size: 45px;
+    background-color: darkviolet;
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+table{
+    font-size: 24px;
+    border: 6px double navy;
+    width: 50%;
+    margin: auto;
+}
+th,td{
+    border: 3px solid rgb(68, 73, 105);
+    width: 25%;
+    height: 2cm;
+}
+tr:hover{
+    background-color: seashell;
+}
+td:hover{
+    background-image: url(https://i.makeagif.com/media/2-02-2021/GeOZ8a.gif);
+    font-weight: bold;
+    text-align: center;
+    color:darkorange;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+thead:hover{
+    font-weight: bold;
+    color:rgb(255, 0, 64);
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+tr:nth-child(even){
+    background-color: cornflowerblue;
+}
+tr:nth-child(odd){
+    background-color: rgb(237, 100, 146);
+}
+.special{
+    border: 3px dashed indigo;
+    text-align: right;
+    vertical-align: bottom;
+}
+caption{
+    background: linear-gradient(to right,red, blue,yellow,green,fuchsia,cyan,indigo);
+    font-size: 36px;
+    text-transform: uppercase;
+}
